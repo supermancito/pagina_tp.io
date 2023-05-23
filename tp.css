@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(0, 255, 34);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-left: 500px;
+    padding: 20px;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+   float: left;
+  padding: 6px 100px;
+}
+.lago2{
+    float: left;
+  padding: 6px 30px;
+}
+.lago3{
+    float: right;
+  padding: 6px 50px ;
+}
+#parraf{
+    text-align: left;
+    padding: 1px;
+}
+
+  .bor2{
+    background-color: blue;
+    border:1px solid black ;
+    height: 150px;
+    
+  }
+  .bor3{
+    background-color: blue;
+    border: 1px solid black;
+    height: 100px;
+  }
+  #fobor{
+    background-color: rgb(0, 255, 34);
+    border: 0px solid black;
+    height: 110px;
+  }
+  .img1{
+  
+    float: left ;
+    padding: 3px 30px;
+  }
+  .p1{
+    float: left ;
+    padding: 3px 35px;
+  }
+  .img2{
+  
+    margin-left: 450px;
+    padding: 3px 30px;
+  }
+  .p2{
+    margin-left: 600px;
+    padding: 3px 30px;
+  }
+  .img3{
+    float: right;
+    padding: 3px 30px;
+  }
+  .p3{
+    float: right;
+    padding: 3px 40px  ;
+  }  

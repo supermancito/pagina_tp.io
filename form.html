@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./from.css">
+</head>
+<body>
+    <header>
+        <h2>FORMULARIO DE CONTACTO</h2>
+    </header>
+    <body>
+        <form>
+            
+            <span>
+                Nombre: <input type="text" name="Nombre:"  required>*
+            </span>
+        <br>
+        <br>
+            <span>
+                DNI: <input type="number" name="dni:" class="dni" required>*
+            </span>
+        <br>
+        <br>
+            <span>
+                Email: <input  type="email" name="Email:" class="email" required>*
+            </span>
+        <br>
+        <br>
+            <span>
+                Edad: <input type="number"  name="Edad:" class="edad">
+            </span>    
+        <br>
+        <br> 
+            <span>
+                Pais: <select name="pais" class="pais">
+                    <option value="" selected="selecte" hidden="hidden">  </option>
+                    <option value="1">  colombia</option>
+                    <option value="2">argentina </option>
+                    </select>
+            </span>
+        <br>
+        <br>
+            <span>Idiomas: <input type="checkbox" >Español</span>
+            <span><input type="checkbox" >Ingles</span>
+            <span><input type="checkbox" >Aleman</span>
+        <br>
+        <br>
+            <button id="formulario">Enviar</button>
+        </form>
+</body>
+</html>
